@@ -1,0 +1,1193 @@
+[
+  {
+    "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-70015849531c",
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_468209"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-70015849531f",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_468210"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957a8",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_467013"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957a9",
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_467012"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab",
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_467014"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#43e89554-4d6e-4b6c-95df-e2fc3f6edc86",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSensor"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_462246"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#tempSensor_462246"
+      },
+      {
+        "@id": "https://example.org/URI#humidSensor_462246"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#6d7ee21b-5d59-4f62-8391-0f2e7f90c8b8",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_803243"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_803243"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#8a5f5ce8-eb8a-436a-8844-db756251f9e0",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1248783"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1248783"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#8a5f5ce8-eb8a-436a-8844-db756251fb7f",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1248400"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1248400"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#8a5f5ce8-eb8a-436a-8844-db756251fbd9",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1248310"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1248310"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#8a5f5ce8-eb8a-436a-8844-db756251fc0d",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1248226"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1248226"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#BuildingStory"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuildingStorey"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#a7123d1b-1925-4aa4-8b89-3adaa7cc3b9d",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_476723"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_476723"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#b0d31ac0-234b-45af-8a0e-5f1df03b563e",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1244822"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1244822"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#b0d31ac0-234b-45af-8a0e-5f1df03b56e6",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1244750"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1244750"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#b602d107-acce-48b1-94b2-7cb0754a08f3",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#tempSensor_729051"
+      },
+      {
+        "@id": "https://example.org/URI#humidSensor_729051"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_729051"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#b602d107-acce-48b1-94b2-7cb0754a3701",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#humidSensor_729129"
+      },
+      {
+        "@id": "https://example.org/URI#tempSensor_729129"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSensor"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_729129"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#b602d107-acce-48b1-94b2-7cb0754a3771",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#tempSensor_729177"
+      },
+      {
+        "@id": "https://example.org/URI#humidSensor_729177"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSensor"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_729177"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#ceac8a54-1760-4f57-9ddc-b23f6abb09ed",
+    "https://brickschema.org/schema/Brick#isPartOf": [
+      {
+        "@id": "https://example.org/URI#933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSpace"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#space_464289"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#db8feaac-330f-4e68-b7ea-d3f393710338",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_476828"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_476828"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_456788",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_456827",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_456985",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457018",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457048",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457049",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457050",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457051",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_457052",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_476723",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_476828",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#deskOccupancySensor_478465",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Occupancy_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#e48c80fa-6d1a-4f6c-9015-993bede22811",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_478465"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_478465"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f284c",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_456788"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_456788"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2863",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_456827"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_456827"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2901",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_456985"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_456985"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2922",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457018"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457018"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2940",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457048"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457048"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2941",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457049"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457049"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2942",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457050"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457050"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2943",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457051"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457051"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#fa52ae67-3b23-4b97-b34c-0616ae5f2944",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFurniture"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#desk_457052"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#deskOccupancySensor_457052"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#ff8ea79f-4a19-4c30-b159-2f05b4a85002",
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1247005"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1247005"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#ff8ea79f-4a19-4c30-b159-2f05b4a85197",
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1246856"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1246856"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#ff8ea79f-4a19-4c30-b159-2f05b4a851fd",
+    "https://brickschema.org/schema/Brick#hasPoint": [
+      {
+        "@id": "https://example.org/URI#windowSensor_1246946"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasLocation": [
+      {
+        "@id": "https://example.org/URI#26cd9e53-9f71-4d71-aed2-7001584957ab"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#types_IfcTypeObject": [
+      {
+        "@id": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow"
+      }
+    ],
+    "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#instanceName_IfcReference": [
+      {
+        "@id": "https://example.org/URI#window_1246946"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#humidSensor_462246",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "43.2",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Relative_Humidity_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/PERCENT_RH"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#humidSensor_729051",
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/PERCENT_RH"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "43.2",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Relative_Humidity_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#humidSensor_729129",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "43.2",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/PERCENT_RH"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Relative_Humidity_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#humidSensor_729177",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "43.2",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Relative_Humidity_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/PERCENT_RH"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#tempSensor_462246",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Air_Temperature_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/DEG_C"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "25.6",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#tempSensor_729051",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "25.6",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/DEG_C"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Air_Temperature_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#tempSensor_729129",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "25.6",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/DEG_C"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Air_Temperature_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#tempSensor_729177",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "25.6",
+        "@type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Air_Temperature_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#hasUnit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/DEG_C"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1244750",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1244822",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1246856",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1246946",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1247005",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1248226",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1248310",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1248400",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_1248783",
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/URI#windowSensor_803243",
+    "https://www.w3.org/TR/rdf12-schema/#type": [
+      {
+        "@id": "https://brickschema.org/schema/Brick#Contact_Sensor"
+      }
+    ],
+    "https://brickschema.org/schema/Brick#value": [
+      {
+        "@value": "0",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  }
+]
