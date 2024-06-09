@@ -1,75 +1,71 @@
 {
   "@context": {
     "@language": "en",
-    "brick": "https://brickschema.org/schema/Brick#",
-    "example": "https://example.org/URI#",
     "ifcOwl": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#",
-    "qudt": "http://qudt.org/vocab/unit/",
-    "rdfs": "https://www.w3.org/TR/rdf12-schema/#"
+    "example": "https://example.org/URI#",
+    "rdfs": "https://www.w3.org/TR/rdf12-schema/#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "qudt": "http://qudt.org/vocab/unit/"
   },
   "@graph": [
     {
-      "@id": "example:deskOccupancySensor_456827",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a851fd",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:windowSensor_1246946"
+      "@id": "example:26cd9e53-9f71-4d71-aed2-70015849531c",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
       },
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1246946"
+        "@id": "example:space_468209"
       },
       "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcWindow"
+        "@id": "ifcOwl:IfcSpace"
       }
     },
     {
-      "@id": "example:b602d107-acce-48b1-94b2-7cb0754a08f3",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": [
-        {
-          "@id": "example:tempSensor_729051"
-        },
-        {
-          "@id": "example:humidSensor_729051"
-        }
-      ],
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_729051"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457049",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:b0d31ac0-234b-45af-8a0e-5f1df03b563e",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:windowSensor_1244822"
+      "@id": "example:26cd9e53-9f71-4d71-aed2-70015849531f",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
       },
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1244822"
+        "@id": "example:space_468210"
       },
       "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcWindow"
+        "@id": "ifcOwl:IfcSpace"
+      }
+    },
+    {
+      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957a8",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:space_467013"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcSpace"
+      }
+    },
+    {
+      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957a9",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:space_467012"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcSpace"
+      }
+    },
+    {
+      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:space_467014"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcSpace"
       }
     },
     {
@@ -86,313 +82,10 @@
         }
       ],
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_462246"
+        "@id": "example:tempHumidSensor_462246"
       },
       "ifcOwl:types_IfcTypeObject": {
         "@id": "ifcOwl:IfcSensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457052",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_476723",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:8a5f5ce8-eb8a-436a-8844-db756251fb7f",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:windowSensor_1248400"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1248400"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcWindow"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1248400",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:humidSensor_729129",
-      "brick:hasUnit": {
-        "@id": "qudt:PERCENT_RH"
-      },
-      "brick:value": 43.2,
-      "rdfs:type": {
-        "@id": "brick:Relative_Humidity_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f284c",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_456788"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_456788"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:tempSensor_729051",
-      "brick:hasUnit": {
-        "@id": "qudt:DEG_C"
-      },
-      "brick:value": 25.6,
-      "rdfs:type": {
-        "@id": "brick:Air_Temperature_Sensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_456788",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2941",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457049"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457049"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:26cd9e53-9f71-4d71-aed2-70015849531f",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_468210"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
-      }
-    },
-    {
-      "@id": "example:tempSensor_729129",
-      "brick:hasUnit": {
-        "@id": "qudt:DEG_C"
-      },
-      "brick:value": 25.6,
-      "rdfs:type": {
-        "@id": "brick:Air_Temperature_Sensor"
-      }
-    },
-    {
-      "@id": "example:e48c80fa-6d1a-4f6c-9015-993bede22811",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_478465"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_478465"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2863",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_456827"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_456827"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:b602d107-acce-48b1-94b2-7cb0754a3701",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": [
-        {
-          "@id": "example:tempSensor_729129"
-        },
-        {
-          "@id": "example:humidSensor_729129"
-        }
-      ],
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_729129"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSensor"
-      }
-    },
-    {
-      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957a9",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_467012"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
-      }
-    },
-    {
-      "@id": "example:db8feaac-330f-4e68-b7ea-d3f393710338",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_476828"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_476828"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2940",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457048"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457048"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:humidSensor_462246",
-      "brick:hasUnit": {
-        "@id": "qudt:PERCENT_RH"
-      },
-      "brick:value": 43.2,
-      "rdfs:type": {
-        "@id": "brick:Relative_Humidity_Sensor"
-      }
-    },
-    {
-      "@id": "example:humidSensor_729177",
-      "brick:hasUnit": {
-        "@id": "qudt:PERCENT_RH"
-      },
-      "brick:value": 43.2,
-      "rdfs:type": {
-        "@id": "brick:Relative_Humidity_Sensor"
-      }
-    },
-    {
-      "@id": "example:tempSensor_729177",
-      "brick:hasUnit": {
-        "@id": "qudt:DEG_C"
-      },
-      "brick:value": 25.6,
-      "rdfs:type": {
-        "@id": "brick:Air_Temperature_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2901",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_456985"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_456985"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1248226",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:windowSensor_803243",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2922",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457018"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457018"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457018",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2943",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457051"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457051"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
       }
     },
     {
@@ -411,235 +104,33 @@
       }
     },
     {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2944",
+      "@id": "example:8a5f5ce8-eb8a-436a-8844-db756251f9e0",
       "brick:hasLocation": {
         "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
       },
       "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457052"
+        "@id": "example:windowSensor_1248783"
       },
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457052"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457051",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1248310",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1244750",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:b0d31ac0-234b-45af-8a0e-5f1df03b56e6",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:windowSensor_1244750"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1244750"
+        "@id": "example:window_1248783"
       },
       "ifcOwl:types_IfcTypeObject": {
         "@id": "ifcOwl:IfcWindow"
       }
     },
     {
-      "@id": "example:windowSensor_1246946",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:ceac8a54-1760-4f57-9ddc-b23f6abb09ed",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_464289"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
-      }
-    },
-    {
-      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a85002",
+      "@id": "example:8a5f5ce8-eb8a-436a-8844-db756251fb7f",
       "brick:hasLocation": {
         "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
       },
       "brick:hasPoint": {
-        "@id": "example:windowSensor_1247005"
+        "@id": "example:windowSensor_1248400"
       },
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1247005"
+        "@id": "example:window_1248400"
       },
       "ifcOwl:types_IfcTypeObject": {
         "@id": "ifcOwl:IfcWindow"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1248783",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957a8",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_467013"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1247005",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1244822",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:tempSensor_462246",
-      "brick:hasUnit": {
-        "@id": "qudt:DEG_C"
-      },
-      "brick:value": 25.6,
-      "rdfs:type": {
-        "@id": "brick:Air_Temperature_Sensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457050",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a85197",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:windowSensor_1246856"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1246856"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcWindow"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_478465",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c",
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:BuildingStory"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcBuildingStorey"
-      }
-    },
-    {
-      "@id": "example:windowSensor_1246856",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Contact_Sensor"
-      }
-    },
-    {
-      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2942",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": {
-        "@id": "example:deskOccupancySensor_457050"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_457050"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcFurniture"
-      }
-    },
-    {
-      "@id": "example:b602d107-acce-48b1-94b2-7cb0754a3771",
-      "brick:hasLocation": {
-        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
-      },
-      "brick:hasPoint": [
-        {
-          "@id": "example:tempSensor_729177"
-        },
-        {
-          "@id": "example:humidSensor_729177"
-        }
-      ],
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:desk_729177"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSensor"
-      }
-    },
-    {
-      "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_467014"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
-      }
-    },
-    {
-      "@id": "example:26cd9e53-9f71-4d71-aed2-70015849531c",
-      "brick:isPartOf": {
-        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
-      },
-      "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:space_468209"
-      },
-      "ifcOwl:types_IfcTypeObject": {
-        "@id": "ifcOwl:IfcSpace"
       }
     },
     {
@@ -673,27 +164,12 @@
       }
     },
     {
-      "@id": "example:humidSensor_729051",
-      "brick:hasUnit": {
-        "@id": "qudt:PERCENT_RH"
+      "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c",
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:BuildingStory"
       },
-      "brick:value": 43.2,
-      "rdfs:type": {
-        "@id": "brick:Relative_Humidity_Sensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_457048",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
-      }
-    },
-    {
-      "@id": "example:deskOccupancySensor_456985",
-      "brick:value": 0,
-      "rdfs:type": {
-        "@id": "brick:Occupancy_Sensor"
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcBuildingStorey"
       }
     },
     {
@@ -712,25 +188,479 @@
       }
     },
     {
-      "@id": "example:deskOccupancySensor_476828",
-      "brick:value": 0,
+      "@id": "example:b0d31ac0-234b-45af-8a0e-5f1df03b563e",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:windowSensor_1244822"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:window_1244822"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcWindow"
+      }
+    },
+    {
+      "@id": "example:b0d31ac0-234b-45af-8a0e-5f1df03b56e6",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:windowSensor_1244750"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:window_1244750"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcWindow"
+      }
+    },
+    {
+      "@id": "example:ceac8a54-1760-4f57-9ddc-b23f6abb09ed",
+      "brick:isPartOf": {
+        "@id": "example:933c4a06-93b8-11d3-80f8-00c04f8efc2c"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:space_464289"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcSpace"
+      }
+    },
+    {
+      "@id": "example:db8feaac-330f-4e68-b7ea-d3f393710338",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_476828"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_476828"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_456788",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
       "rdfs:type": {
         "@id": "brick:Occupancy_Sensor"
       }
     },
     {
-      "@id": "example:8a5f5ce8-eb8a-436a-8844-db756251f9e0",
+      "@id": "example:deskOccupancySensor_456827",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_456985",
+      "brick:value": {
+        "@value": "OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457018",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457048",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457049",
+      "brick:value": {
+        "@value": "OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457050",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457051",
+      "brick:value": {
+        "@value": "OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_457052",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_476723",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_476828",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:deskOccupancySensor_478465",
+      "brick:value": {
+        "@value": "NOT_OCCUPIED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Occupancy_Sensor"
+      }
+    },
+    {
+      "@id": "example:e48c80fa-6d1a-4f6c-9015-993bede22811",
       "brick:hasLocation": {
         "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
       },
       "brick:hasPoint": {
-        "@id": "example:windowSensor_1248783"
+        "@id": "example:deskOccupancySensor_478465"
       },
       "ifcOwl:instanceName_IfcReference": {
-        "@id": "example:window_1248783"
+        "@id": "example:desk_478465"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f284c",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_456788"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_456788"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2863",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_456827"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_456827"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2901",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_456985"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_456985"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2922",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457018"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457018"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2940",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457048"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457048"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2941",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457049"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457049"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2942",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457050"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457050"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2943",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457051"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457051"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:fa52ae67-3b23-4b97-b34c-0616ae5f2944",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:deskOccupancySensor_457052"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:desk_457052"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcFurniture"
+      }
+    },
+    {
+      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a85002",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:windowSensor_1247005"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:window_1247005"
       },
       "ifcOwl:types_IfcTypeObject": {
         "@id": "ifcOwl:IfcWindow"
+      }
+    },
+    {
+      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a85197",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:windowSensor_1246856"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:window_1246856"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcWindow"
+      }
+    },
+    {
+      "@id": "example:ff8ea79f-4a19-4c30-b159-2f05b4a851fd",
+      "brick:hasLocation": {
+        "@id": "example:26cd9e53-9f71-4d71-aed2-7001584957ab"
+      },
+      "brick:hasPoint": {
+        "@id": "example:windowSensor_1246946"
+      },
+      "ifcOwl:instanceName_IfcReference": {
+        "@id": "example:window_1246946"
+      },
+      "ifcOwl:types_IfcTypeObject": {
+        "@id": "ifcOwl:IfcWindow"
+      }
+    },
+    {
+      "@id": "example:humidSensor_462246",
+      "brick:hasUnit": {
+        "@id": "qudt:PERCENT_RH"
+      },
+      "brick:value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "43.2"
+      },
+      "rdfs:type": {
+        "@id": "brick:Relative_Humidity_Sensor"
+      }
+    },
+    {
+      "@id": "example:tempSensor_462246",
+      "brick:hasUnit": {
+        "@id": "qudt:DEG_C"
+      },
+      "brick:value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "25.6"
+      },
+      "rdfs:type": {
+        "@id": "brick:Air_Temperature_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1244750",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1244822",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1246856",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1246946",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1247005",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1248226",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1248310",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1248400",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_1248783",
+      "brick:value": {
+        "@value": "CLOSED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
+      }
+    },
+    {
+      "@id": "example:windowSensor_803243",
+      "brick:value": {
+        "@value": "OPENED"
+      },
+      "rdfs:type": {
+        "@id": "brick:Contact_Sensor"
       }
     }
   ]
